@@ -1,4 +1,4 @@
 - encrypt key with a keystore & password
 - remove history
-- real $ --> use --interactive or a keystore file when possible.
+- real $ --> use --interactive or a keystore file when possible.-url 
 - I WILL BE SAFE
