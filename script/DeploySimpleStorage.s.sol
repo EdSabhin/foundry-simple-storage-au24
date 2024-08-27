@@ -5,6 +5,8 @@ pragma solidity ^0.8.19;
 import {Script} from "forge-std/Script.sol";
 import {SimpleStorage} from "../src/SimpleStorage.sol";
 
+// Use Scripts in lieu of interacting with contracts and chains directly through CLI
+
 contract DeploySimpleStorage is Script {
     function run() external returns (SimpleStorage) {
         vm.startBroadcast();
